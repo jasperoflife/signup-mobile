@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0em 33em;
+    padding: 3em 1.5em;
+}
+
+main{
+    display: block;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    color: white;  
+}
+
+.text-col{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.try{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: 1px solid hsl(248, 32%, 49%);
+    color: white
+}
+
+.try a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+form{
+    height: auto;
+    width: 72%;
+    border: 1px solid white;
+    padding: 30px 30px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+form input{
+    width: 100%; 
+    padding: 7px 0px;
+    margin: 10px 0px;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"]::placeholder {
+    /* Firefox, Chrome, Opera */
+    padding-left: 30px;
+    }
+
+form button{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+.try-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(246, 25%, 77%);
+    text-decoration: none;  
+    font-size: x-small;
+    text-align: center;
+}
+
+.try-2 a{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+  }
